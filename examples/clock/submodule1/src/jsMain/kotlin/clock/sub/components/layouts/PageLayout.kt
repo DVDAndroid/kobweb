@@ -1,4 +1,4 @@
-package clock.components.layouts
+package clock.sub.components.layouts
 
 import androidx.compose.runtime.*
 import com.varabyte.kobweb.compose.foundation.layout.Arrangement

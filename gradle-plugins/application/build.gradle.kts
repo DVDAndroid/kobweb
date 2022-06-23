@@ -26,6 +26,7 @@ dependencies {
     implementation(libs.jsoup)
 
     implementation(project(":common:kobweb-common"))
+    implementation(project(":common:kobweb-annotations"))
 }
 
 val DESCRIPTION = "A Gradle plugin that completes a user's Kobweb app"

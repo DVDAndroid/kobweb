@@ -17,6 +17,7 @@ kotlin {
             dependencies {
                 implementation(compose.runtime)
                 implementation(compose.web.core)
+                implementation(project(":common:kobweb-annotations"))
             }
         }
     }

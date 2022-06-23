@@ -1,0 +1,33 @@
+requests:
+- !<SetStatus>
+  message: "Building..."
+  isError: false
+  timeoutMs: null
+- !<SetStatus>
+  message: "Failed."
+  isError: true
+  timeoutMs: 500
+- !<SetStatus>
+  message: "Building..."
+  isError: false
+  timeoutMs: null
+- !<SetStatus>
+  message: "Failed."
+  isError: true
+  timeoutMs: 500
+- !<SetStatus>
+  message: "Building..."
+  isError: false
+  timeoutMs: null
+- !<SetStatus>
+  message: "Failed."
+  isError: true
+  timeoutMs: 500
+- !<SetStatus>
+  message: "Building..."
+  isError: false
+  timeoutMs: null
+- !<SetStatus>
+  message: "Failed."
+  isError: true
+  timeoutMs: 500

@@ -9,6 +9,7 @@ rootProject.name = "kobweb"
 
 include(":cli:kobweb")
 include(":common:kobweb-common")
+include(":common:kobweb-annotations")
 include(":frontend:kobweb-core")
 include(":frontend:kobweb-compose")
 include(":frontend:kobweb-silk")
@@ -20,3 +21,4 @@ include(":backend:kobweb-api")
 include(":backend:server")
 include(":gradle-plugins:application")
 include(":gradle-plugins:extensions:markdown")
+include(":ksp:kobweb-ksp-processor")
