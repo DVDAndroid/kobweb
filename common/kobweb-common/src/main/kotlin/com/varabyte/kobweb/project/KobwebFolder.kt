@@ -14,7 +14,7 @@ private const val KOBWEB_FOLDER = ".kobweb"
  * If a Kobweb project contains any subfolders that themselves own a Kobweb folder, then that is considered a different
  * project and opaque to the parent project.
  */
-class KobwebFolder private constructor(private val path: Path) {
+class KobwebFolder private constructor(val path: Path) {
     companion object {
         /**
          * Return a Kobweb folder if it is a child of the current path.
